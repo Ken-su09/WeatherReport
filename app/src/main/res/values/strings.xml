@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">WeatherReport</string>
+    <string name="alert_dialog_create_city_title">New city name ?</string>
+    <string name="alert_dialog_create_city_positive_button_text">Create city</string>
+    <string name="alert_dialog_negative_button_text">Cancel</string>
+    <string name="alert_dialog_edit_text_hint">New York, London, Paris....</string>
+    <string name="create_city_menu_title">Create a new city</string>
+
+    <string name="alert_dialog_delete_city_title">Do you really want to delete the city %1$s ?</string>
+    <string name="alert_dialog_delete_city_positive_button">Delete the city</string>
+    <string name="toast_message_delete_the_city">%1$s has been deleted</string>
+    <string name="toast_message_create_the_city">%1$s has been created</string>
+    <string name="toast_message_could_not_delete">Could not delete the city</string>
+    <string name="toast_message_could_not_create">Could not create city</string>
+    <string name="weather_fragment_failure_call">Could not load city weather</string>
+
+
+    <string name="fragment_weather_temperature_label">Temperature :</string>
+    <string name="fragment_weather_temperature_data">%1$d °C</string>
+
+    <string name="fragment_weather_pressure_label">Pressure :</string>
+    <string name="fragment_weather_pressure_data">%1$d %%</string>
+
+    <string name="fragment_weather_humidity_label">Humidity :</string>
+    <string name="fragment_weather_humidity_data">%1$d hPA</string>
+    <string name="toast_message_city_already_exists">The city %1$s already exists</string>
+    <string name="toast_message_city_is_not_real">The city %1$s does not exist</string>
+
+    <string-array name="Languages">
+        <item>Paris</item>
+        <item>London</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+        <item>Javascript</item>
+        <item>Jquery</item>
+    </string-array>
+</resources>
